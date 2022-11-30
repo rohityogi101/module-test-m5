@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@200&display=swap');
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+.bortm{
+    border-bottom: 2px solid white;
+}
+
+.bg {
+    background: #000000;
+    width: 100%;
+    height: 120vh;
+}
+
+.fw700 {
+    font-weight: 700;
+    font-size: 100px;
+    margin-left: 350px;
+    
+}
+.fe700 {
+    font-weight: 700;
+    font-size: 100px;
+}
+.mid{
+    margin-top: 100px;
+}
+
+.main {
+
+    position: relative;
+    width: 800px;
+    height: 100px;
+    left: 50px;
+    top: 100px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 120px;
+    padding: 0px;
+    display: inline;
+    animation-name: main;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+@keyframes Business{
+    from{
+        width:200px ;
+    }
+    To{
+        width: 800px;
+    }
+}
+
+.img {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    left: 550px;
+margin-top: -110px;
+}
+
+.img2 {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 8px;
+    top: 900px;
+    background: url(pexels-hidden-couple-3048527\ 1.png);
+    margin:60px;
+}
+
+.about {
+    position: absolute;
+    display: flex;
+    margin-left: 700px;
+    margin-top: 100px;
+
+/* width: 910px;
+height: 225px;
+right: -300px;
+top: 950px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+
+}
+    
+
+#paragraph {
+    position: absolute;
+    display: flex;
+    margin-left: 700px;
+    width: 550px;
+    height: 546px;
+    /* left: 747px; */
+    top: 1100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    color: #000000;
+    /* margin-right:20px; */
+
+}
+
+.ourservices {
+    position: absolute;
+    width: 914px;
+    height: 160px;
+    left: 82px;
+    top: 1800px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 30000;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+    overflow-x: scroll;
+}
+.srbox:hover{
+    background-color: tomato;
+    border-radius: 10px;
+}
+.Box {
+
+    box-sizing: border-box;
+    display: flexbox;
+    position: absolute;
+    width: 299px;
+    height: 250px;
+    left: 82pxpx;
+    top: 1850px;
+    margin: 80px;
+    padding: 30px;
+
+    border: 2px solid #000000;
+
+}
+
+.box1 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 299px;
+    height: 250px;
+    left: 82pxpx;
+    top: 1850px;
+    margin: 80px;
+    right: 90px;
+    padding: 30px;
+
+    border: 2px solid #000000;
+
+}
+
+.box2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 299px;
+    height: 250px;
+    left: 400px;
+    top: 1850px;
+    margin: 80px;
+    padding: 30px;
+
+    border: 2px solid #000000;
+
+}
+
+bortr{
+    border-bottom: 2px solid black;
+    bottom: 1950px;
+}
+
+.footer {
+    /* position: absolute;
+    width: 692.27px;
+    height: 144px;
+    /* left: 518px; */
+    top: 2400px;
+    margin: auto;
+    color: white;
+
+
+    /* font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px; */
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid;
+    color: black;
+    border: inline-block; */
+
+
+
+
+}
+
+.input {
+    /* box-sizing: border-box;
+ 
+    width: 100px;
+    height: 72px; */
+    position: absolute;
+    /* left: 600px; */
+    top: 2600px;
+    padding: 2rem;
+
+    /* border: 1px solid #FFFFFF;  */
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+     margin-left: calc(); 
+    margin-top: 30px;
+    /* margin: 0 auto; */
+}
+
+.in {
+    color: white;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    border: 1px solid white;
+    margin-left: calc(100%/9);
+    background: transparent;
+}
+
+.button {
+    width: 260.75px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left:125px ;
+    padding: 1px;
+}
+
+.fadesample { 
+	animation-name: fadeIn; 				
+	animation-duration: 3s;        			
+	animation-iteration-count:infinite;  	
+	} 
+@keyframes fadeIn { 
+	0% {opacity: 0;} 
+	100% {opacity: 1;} 
+	}     
